@@ -1,5 +1,6 @@
 {
-  "_note": "Live roster for the KRP launcher. Launchers re-read this every 2 minutes — edits go live without shipping an update. To delegate to jeaybot's dashboard-managed roster, add: \"remoteUrl\": \"https://YOUR-RAILWAY-URL/api/public/launcher/streamers?guild=872427770813235242\"",
+  "_note": "Live roster for the KRP launcher. remoteUrl delegates to jeaybot's dashboard-managed roster (Kick approved list + Twitch presence). Edit the jeaybot dashboard Streaming page to manage streamers; edits here also go live to launchers within ~2 minutes.",
+  "remoteUrl": "https://jeaybot.up.railway.app/api/public/launcher/streamers?guild=872427770813235242",
   "twitch": { "logins": ["jeaybaited"] },
   "kick": { "slugs": ["jeaybaited"] }
 }
